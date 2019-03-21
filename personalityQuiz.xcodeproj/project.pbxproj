@@ -12,6 +12,8 @@
 		3DF48C052243ED9300D6FE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF48C032243ED9300D6FE2C /* Main.storyboard */; };
 		3DF48C072243ED9400D6FE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF48C062243ED9400D6FE2C /* Assets.xcassets */; };
 		3DF48C0A2243ED9400D6FE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF48C082243ED9400D6FE2C /* LaunchScreen.storyboard */; };
+		3DF48C1222440D7C00D6FE2C /* QuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF48C1122440D7C00D6FE2C /* QuestionsVC.swift */; };
+		3DF48C1422440D8700D6FE2C /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF48C1322440D8700D6FE2C /* ResultsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3DF48C062243ED9400D6FE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF48C092243ED9400D6FE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF48C0B2243ED9400D6FE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF48C1122440D7C00D6FE2C /* QuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVC.swift; sourceTree = "<group>"; };
+		3DF48C1322440D8700D6FE2C /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3DF48BFF2243ED9300D6FE2C /* AppDelegate.swift */,
 				3DF48C012243ED9300D6FE2C /* ViewController.swift */,
+				3DF48C1122440D7C00D6FE2C /* QuestionsVC.swift */,
+				3DF48C1322440D8700D6FE2C /* ResultsVC.swift */,
 				3DF48C032243ED9300D6FE2C /* Main.storyboard */,
 				3DF48C062243ED9400D6FE2C /* Assets.xcassets */,
 				3DF48C082243ED9400D6FE2C /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF48C022243ED9300D6FE2C /* ViewController.swift in Sources */,
+				3DF48C1422440D8700D6FE2C /* ResultsVC.swift in Sources */,
 				3DF48C002243ED9300D6FE2C /* AppDelegate.swift in Sources */,
+				3DF48C1222440D7C00D6FE2C /* QuestionsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
