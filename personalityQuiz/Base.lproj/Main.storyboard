@@ -21,12 +21,45 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="monkey" translatesAutoresizingMaskIntoConstraints="NO" id="cmf-Ad-iwk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XP4-TI-hq9">
+                                <rect key="frame" x="16" y="269.5" width="343" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Animal Are You?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdY-4Z-0Uw">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="41"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="2" height="0.0"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jx-pk-ahk">
+                                        <rect key="frame" x="0.0" y="61" width="343" height="67"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="40"/>
+                                        <size key="titleShadowOffset" width="0.0" height="2"/>
+                                        <state key="normal" title="Begin Quiz">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RdY-4Z-0Uw" firstAttribute="leading" secondItem="XP4-TI-hq9" secondAttribute="leading" id="Vuz-T1-8tx"/>
+                                    <constraint firstAttribute="trailing" secondItem="RdY-4Z-0Uw" secondAttribute="trailing" id="r0P-iE-emT"/>
+                                    <constraint firstItem="RdY-4Z-0Uw" firstAttribute="top" secondItem="XP4-TI-hq9" secondAttribute="top" id="v20-d2-w9D"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="cmf-Ad-iwk" secondAttribute="bottom" id="BR1-Mu-Aa9"/>
+                            <constraint firstItem="XP4-TI-hq9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JxH-b6-q2P"/>
+                            <constraint firstItem="XP4-TI-hq9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kas-nB-kAb"/>
                             <constraint firstItem="cmf-Ad-iwk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Prk-TE-pkX"/>
+                            <constraint firstItem="XP4-TI-hq9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QQA-CV-MNI"/>
                             <constraint firstItem="cmf-Ad-iwk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eAl-4t-Q1R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XP4-TI-hq9" secondAttribute="trailing" id="vHP-8A-hIf"/>
                             <constraint firstAttribute="trailing" secondItem="cmf-Ad-iwk" secondAttribute="trailing" id="wcp-Gn-dDo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,6 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="669.60000000000002" y="27.436281859070466"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zjX-B9-WUE">
@@ -48,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WtJ-FQ-e3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="133"/>
+            <point key="canvasLocation" x="1378" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uhg-yp-qfK">
@@ -63,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFO-yd-Wjw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1585" y="133"/>
+            <point key="canvasLocation" x="2084" y="27"/>
         </scene>
     </scenes>
     <resources>
