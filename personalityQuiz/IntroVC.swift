@@ -10,9 +10,12 @@ import UIKit
 
 class IntroVC: UIViewController {
 
+    @IBOutlet weak var beginQuizButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        beginQuizButton.layer.cornerRadius = 7
     }
 
 
