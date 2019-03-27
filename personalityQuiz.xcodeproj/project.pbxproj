@@ -60,15 +60,15 @@
 		3DF48BFE2243ED9300D6FE2C /* personalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				3DF48BFF2243ED9300D6FE2C /* AppDelegate.swift */,
 				3DF48C012243ED9300D6FE2C /* IntroVC.swift */,
 				3DF48C1122440D7C00D6FE2C /* QuestionsVC.swift */,
 				3DF48C1322440D8700D6FE2C /* ResultsVC.swift */,
+				3DF48C152247140100D6FE2C /* QuestionData.swift */,
 				3DF48C032243ED9300D6FE2C /* Main.storyboard */,
 				3DF48C062243ED9400D6FE2C /* Assets.xcassets */,
 				3DF48C082243ED9400D6FE2C /* LaunchScreen.storyboard */,
 				3DF48C0B2243ED9400D6FE2C /* Info.plist */,
-				3DF48C152247140100D6FE2C /* QuestionData.swift */,
+				3DF48BFF2243ED9300D6FE2C /* AppDelegate.swift */,
 			);
 			path = personalityQuiz;
 			sourceTree = "<group>";
